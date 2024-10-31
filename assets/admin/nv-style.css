@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Pathway+Gothic+One&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.nav-tab {
+  display: inline-block;
+  background: #f1f1f1;
+  border: 1px solid #ccc;
+  border-bottom: none;
+  padding: 5px 10px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+.nav-tab-active, .nav-tab-active:focus {
+  background: #fff; 
+  border-bottom: 1px solid #fff;
+}
+.nav-tab-active, .nav-tab-active:focus, .nav-tab:focus, a.nav-tab:focus, a.nav-tab:active {
+  outline: none;
+}
+.ninja_van_order_history .nv-status:not(.nv-status-button) {
+  background: #e5e5e5;
+  color: #777;
+}
+.order-status.status-completed, .ninja_van_order_history .nv-status.status-completed {
+  background: #3c9a07 !important;
+  color: #fff !important;
+}
+.order-status.status-nv-out-delivery, .ninja_van_order_history .nv-status.status-nv-out-delivery {
+  background: #0abde7;
+  color: #fff;
+}
+.order-status.status-nv-pending-pickup, .ninja_van_order_history .nv-status.status-nv-pending-pickup {
+  background: #e0ac00;
+  color: #fff;
+}
+.order-status.status-nv-in-transit, .ninja_van_order_history .nv-status.status-nv-in-transit {
+  background: #690ebe;
+  color: #fff;
+}
+.order-status.status-nv-returned, .ninja_van_order_history .nv-status.status-nv-returned {
+  background: #c20505;
+  color: #fff;
+}
+.order-status.status-processing, .ninja_van_order_history .nv-status.status-processing {
+  background: #5b841b;
+  color: #fff;
+}
+.ninja_van_form_mw {
+  max-width: 600px !important;
+}
+.ninja_van_form {
+  margin-top: 21px;
+  padding: 21px 15px;
+  max-width: 90%;
+  border: 1px solid #e5e5e5;
+  border-radius: 7px;
+  background: #fff;
+  margin-bottom: 15px;
+}
+.ninja_van_form input[type="color"],
+.ninja_van_form input[type="date"],
+.ninja_van_form input[type="datetime-local"],
+.ninja_van_form input[type="datetime"],
+.ninja_van_form input[type="email"],
+.ninja_van_form input[type="month"],
+.ninja_van_form input[type="number"],
+.ninja_van_form input[type="password"],
+.ninja_van_form input[type="search"],
+.ninja_van_form input[type="tel"],
+.ninja_van_form input[type="text"],
+.ninja_van_form input[type="time"],
+.ninja_van_form input[type="url"],
+.ninja_van_form input[type="week"],
+.ninja_van_form select,
+.ninja_van_form textarea {
+  border: 1px solid #e5e5e5;
+  width: 100%;
+}
+.ninja_van_form .form-table, .ninja_van_form .ninja_van_order_history {
+  font-family: 'Lato' !important;
+}
+.ninja_van_form p.success {
+  color: green;
+  margin: 0;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+}
+.ninja_van_form .text-title {
+  margin: 0;
+  font-size: 18px;
+  text-align: center !important;
+}
+.ninja_van_form .text-title-small {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.ninja_van_form .text-success {
+  color: #72e672;
+  font-size: 10px;
+  text-align: center !important;
+}
+.ninja_van_form .text-info {
+  color: #72aee6;
+  font-size: 10px;
+  text-align: center !important;
+}
+.ninja_van_form .text-warning {
+  color: #e6a772;
+  font-size: 10px;
+  text-align: center !important;
+}
+.ninja_van_form .text-danger {
+  color: #e67272;
+  font-size: 10px;
+  text-align: center !important;
+}
+.ninja_van_form .text-center {
+  text-align: center;
+}
+.ninja_van_form p.submit > .button {
+  display: inherit;
+  margin: 0 auto;
+}
+.ninja_van_order_history .nv-status {
+  padding: 5px 7px;
+  border-radius: 5px;
+}
+.ninja_van_order_history .nv-status.nv-status-button {
+  border: 1px solid #c3c3c3;
+}
+.ninja_van_order_history .wp-list-table th,
+.ninja_van_order_history .wp-list-table td {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+}
+.ninja_van_order_history .wp-list-table td div {
+  margin-bottom: 15px;
+}
+.ninja_van_order_history .wp-list-table {
+  width: 100%;
+}
+@media screen and (max-width: 400px) {
+  .ninja_van_order_history .wp-list-table {
+    width: auto !important;
+  }
+  .ninja_van_order_history .wp-list-table th,
+  .ninja_van_order_history .wp-list-table td {
+    min-width: 80px;
+  }
+  .ninja_van_order_history .ninja_van_order_history_table {
+    overflow-x: scroll;
+  }
+}
+.ninja_van_form #image_container {
+  display: flex;
+  flex-direction: column;
+}
+.ninja_van_form .slider {
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 26px;
+  background-color: #ccc;
+  border-radius: 34px;
+}
+.ninja_van_form .slider input {
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  cursor: pointer;
+  z-index: 1;
+}
+.ninja_van_form .slider span {
+  position: absolute;
+  content: "";
+  height: 18px;
+  width: 18px;
+  left: 3px;
+  bottom: 4px;
+  background-color: #fff;
+  -webkit-transition: .4s;
+  transition: .4s;
+  border-radius: 50%;
+}
+.ninja_van_form .slider:has(input:checked) {
+  background-color: cornflowerblue;
+}
+.ninja_van_form .slider input:checked + span {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+.ninja_van_form:not(:first-of-type) {
+  display: none;
+}
+
+.ninja_van_form .ninja_van_footer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.ninja_van_form .ninja_van_footer .ninja_van_footer_text {
+  width: 80%;
+  word-wrap: break-word;
+  font-size: 12px;
+}
+
+.ninja_van_tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.ninja_van_tooltip .ninja_van_tooltip_text {
+  visibility: hidden;
+  width: 300px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  border-radius: 6px;
+  
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+}
+
+.ninja_van_tooltip:hover .ninja_van_tooltip_text {
+  visibility: visible;
+}
